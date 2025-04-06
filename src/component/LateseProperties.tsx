@@ -2,25 +2,31 @@ import React from 'react';
 
 const LatestProperties: React.FC = () => {
   return (
-    <div className="flex flex-col md:flex-row ml-20 p-16 text-center">
-      {/* Big Text on the Left */}
-      <div className="w-full md:w-1/2 mb-4 md:mb-0 justify-center items-center">
-        <h2 className="text-4xl md:text-5xl font-bold text-gray-800 text-left">
-          Explore our latest<br /><span className="italic font-merriweather font-light">properties</span>
-        </h2>
+    <section className="w-full px-4 sm:px-6 md:px-8 lg:px-16 py-10 sm:py-12 md:py-16 lg:py-20">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-start gap-8 md:gap-12 lg:gap-16">
+        {/* Big Text */}
+        <div className="w-full md:w-1/2 mb-6 md:mb-0">
+          <h2 className="text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold text-gray-800 leading-tight">
+            Explore our latest
+            <span className="block italic font-merriweather font-light mt-1">properties</span>
+          </h2>
+        </div>
+        
+        {/* Paragraph and Button */}
+        <div className="w-full md:w-1/2">
+          <p className="text-sm sm:text-base text-gray-600 mb-6 max-w-lg">
+            Discover a new era of property management with FocalBrick
+            Limited. We don't just manage properties; we create thriving
+            living and investment ecosystems. With over a decade of
+            expertise, we turn real estate challenges into opportunities for
+            growth, comfort, and financial success.
+          </p>
+          <button className="bg-black text-white text-sm sm:text-base px-5 sm:px-6 py-2 sm:py-2.5 rounded-full hover:bg-gray-800 transition-colors">
+            View All Properties
+          </button>
+        </div>
       </div>
-      {/* Paragraph and Button on the Right */}
-      <div className="w-full md:w-1/2 text-left">
-        <p className="text-sm font-roboto text-gray-600 mb-4">
-          Discover a new era of property management with FocalBrick <br />
-          Limited. We don't just manage properties; we create thriving <br />
-          living and investment ecosystems. With over a decade of <br />
-          expertise, we turn real estate challenges into opportunities for <br /> 
-          growth, comfort, and financial success.
-        </p>
-        <button className="bg-black text-sm text-white px-6 py-2 rounded-full">View All Properties</button>
-      </div>
-    </div>
+    </section>
   );
 };
 

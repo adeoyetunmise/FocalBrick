@@ -12,7 +12,7 @@ const ContactInformation: React.FC = () => {
       </div>
 
       {/* Paragraphs Row */}
-      <div className="flex flex-wrap ml-8 justify-around w-full gap-8 mb-8">
+      <div className="flex flex-wrap ml-5 justify-around w-full gap-8 mb-8">
         {/* Paragraph 1 */}
         <div className="w-80 text-left">
           <h3 className="text-lg font-semibold mb-2">FocalBrick Limited</h3>
