@@ -68,23 +68,23 @@ const ReviewsFromClients: React.FC = () => {
             {currentIndex === index && (
               <div
                 className={`absolute top-[-110px] ${
-                  index < 2 ? 'left-72' : 'right-72'
-                } w-[500px] text-left`} // Increased width to accommodate text
+                  index === 0 ? 'left-72' :
+                  index === 1 ? 'left-[550px]' :
+                  index === 2 ? 'right-[570px]' : 'right-72'
+                } w-[500px] text-left`}
               >
                 <h4 className="text-lg font-semibold mb-1">{review.header}</h4>
-                <p className="text-gray-600 text-lg ">{review.text}</p>
+                <p className="text-gray-600 text-lg leading-snug w-[600px] ">{review.text}</p>
               </div>
             )}
             {/* Thumbnails */}
             <div
-              className={`transition-all duration-500 ${
-                currentIndex === index ? 'w-64 h-96' : 'w-48 h-64 opacity-70'
-              }`}
+              className={`transition-all duration-500 relative ${currentIndex === index ? 'w-64 h-96' : 'w-64 h-64'}`}
             >
               <img
                 src={review.image}
                 alt="Client"
-                className="w-full h-full object-cover rounded-md cursor-pointer"
+                className="w-full h-full object-cover object-top rounded-md cursor-pointer"
                 onClick={() => setCurrentIndex(index)}
               />
             </div>
