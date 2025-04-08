@@ -26,10 +26,10 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Divider Line */}
-        <hr className="border-t border-gray-300 w-full max-w-7xl mb-4" />
+        <hr className="border-t border-gray-300 w-full max-w-full mb-4" />
 
         {/* Links Row */}
-        <div className="flex justify-between w-full max-w-7xl text-sm">
+        <div className="flex justify-between w-full max-w-7xl text-lg">
           <a href="#" className="hover:underline">
             Privacy Policy
           </a>

@@ -14,7 +14,7 @@ const LatestProperties: React.FC = () => {
         
         {/* Paragraph and Button */}
         <div className="w-full md:w-1/2">
-          <p className="text-sm sm:text-base text-gray-600 mb-6 max-w-lg">
+          <p className="text-sm sm:text-lg text-gray-600 mb-6 max-w-lg">
             Discover a new era of property management with FocalBrick
             Limited. We don't just manage properties; we create thriving
             living and investment ecosystems. With over a decade of

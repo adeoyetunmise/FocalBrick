@@ -17,7 +17,7 @@ const KeyFeatures: React.FC = () => {
           <div className="text-left space-y-6 sm:space-y-8">
             <div className="p-6 ">
               <h4 className="text-lg sm:text-xl font-semibold mb-2">Property Management</h4>
-              <p className="text-gray-600 text-sm sm:text-base font-roboto">
+              <p className="text-gray-600 text-sm sm:text-lg font-roboto">
                 We take the complexity out of property ownership. From tenant screening to maintenance, 
                 our comprehensive management services ensure your investment remains profitable and stress-free.
               </p>
@@ -25,7 +25,7 @@ const KeyFeatures: React.FC = () => {
             
             <div className="p-6 ">
               <h4 className="text-lg sm:text-xl font-semibold mb-2">Real Estate Consulting</h4>
-              <p className="text-gray-600 text-sm sm:text-base font-roboto">
+              <p className="text-gray-600 text-sm sm:text-lg font-roboto">
                 Navigate the dynamic real estate landscape with confidence. Our expert consultants provide 
                 data-driven insights, market analysis, and strategic advice tailored to your unique goals.
               </p>
@@ -45,7 +45,7 @@ const KeyFeatures: React.FC = () => {
           <div className="text-left space-y-6 sm:space-y-8">
             <div className="p-6">
               <h4 className="text-lg sm:text-xl font-semibold mb-2">Investment Solutions</h4>
-              <p className="text-gray-600 text-sm sm:text-base font-roboto">
+              <p className="text-gray-600 text-sm sm:text-lg font-roboto">
                 Maximize your real estate potential. We identify high-yield properties, manage investment portfolios, 
                 and provide end-to-end support for both seasoned investors and first-time property owners.
               </p>
@@ -53,7 +53,7 @@ const KeyFeatures: React.FC = () => {
             
             <div className=" p-6">
               <h4 className="text-lg sm:text-xl font-semibold mb-2">Specialized Services</h4>
-              <p className="text-gray-600 text-sm sm:text-base font-roboto">
+              <p className="text-gray-600 text-sm sm:text-lg font-roboto">
                 Maximize your real estate potential. We identify high-yield properties, manage investment portfolios, 
                 and provide end-to-end support for both seasoned investors and first-time property owners.
               </p>

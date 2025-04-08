@@ -28,7 +28,7 @@ const PropertyCards: React.FC = () => {
   return (
     <div className="flex flex-wrap justify-center gap-8 p-8">
       {properties.map((property, index) => (
-        <div key={index} className="w-80 bg-white overflow-hidden">
+        <div key={index} className="w-96 bg-white overflow-hidden">
           <img src={property.image} alt={property.title} className="w-full h-80 object-cover" />
           <div className="">
             <h3 className="text-xl font-bold mb-2">{property.title}</h3>

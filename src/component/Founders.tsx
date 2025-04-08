@@ -13,9 +13,9 @@ const Founders: React.FC = () => {
 
         {/* Paragraph and Button on the Right */}
         <div className="w-full md:w-1/2 text-left">
-          <p className="text-sm sm:text-base text-gray-600 mb-6 max-w-lg font-roboto">
-            Founded in 2012, FocalBrick Limited emerged from a vision to revolutionize property management. Our founders, Sarah 
-            Thompson and Michael Rodriguez, recognized a critical gap 
+          <p className="text-sm sm:text-lg text-gray-600 mb-6 max-w-lg font-roboto">
+            Founded in 2012, FocalBrick Limited emerged from a vision to <br />revolutionize property management. Our founders, Sarah 
+            Thompson and Michael Rodriguez, recognized a critical gap <br />
             in the real estate market – the need for a holistic, client-centric 
             approach to property management and investment.
           </p>

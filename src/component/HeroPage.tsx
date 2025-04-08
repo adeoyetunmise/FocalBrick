@@ -3,7 +3,7 @@ import Navbar from './NavBar';
 
 const HeroPage: React.FC = () => {
   return (
-    <div className="relative h-[135vh] bg-cover bg-center" style={{ backgroundImage: "url('/modern.jpg')" }}>
+    <div className="relative h-[125vh] bg-cover bg-center" style={{ backgroundImage: "url('/modern.jpg')" }}>
       <Navbar />
       <div className="flex flex-col items-center justify-center h-full text-white bg-black bg-opacity-50">
         {/* Main Text */}

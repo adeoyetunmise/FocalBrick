@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
   }, [isMenuOpen]);
 
   return (
-    <nav className="absolute top-0 w-full z-50 bg-transparent px-4 sm:px-6 md:px-10 lg:px-24 py-4 flex justify-between items-center">
+    <nav className="absolute top-0 w-full z-50 bg-transparent px-4 sm:px-6 md:px-10 lg:px-24 py-12 flex justify-between items-center">
       {/* Logo */}
       <div className="flex items-center space-x-2">
         <img src="/FBSIG1.jpg" alt="Logo" className="w-8 h-8 rounded-full" />

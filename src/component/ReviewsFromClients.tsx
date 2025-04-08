@@ -40,7 +40,7 @@ const ReviewsFromClients: React.FC = () => {
     <div className="p-8 flex flex-col items-center justify-center">
       {/* Header */}
       <div className="flex justify-between w-full items-center mb-8">
-        <h2 className="text-5xl ml-8 font-bold text-gray-800">
+        <h2 className="text-5xl ml-20 font-bold text-gray-800">
           Reviews from <br />
           <span className="italic font-light">Clients</span>
         </h2>
@@ -61,7 +61,7 @@ const ReviewsFromClients: React.FC = () => {
       </div>
 
       {/* Thumbnails Row with text beside the selected image */}
-      <div className="flex justify-center gap-4 relative mt-24">
+      <div className="flex justify-center gap-4 relative mt-32">
         {reviews.map((review, index) => (
           <div key={index} className="flex items-center">
             {/* Text that shows beside the selected image */}
@@ -71,14 +71,14 @@ const ReviewsFromClients: React.FC = () => {
                   index < 2 ? 'left-72' : 'right-72'
                 } w-[500px] text-left`} // Increased width to accommodate text
               >
-                <h4 className="text-sm font-semibold mb-1">{review.header}</h4>
-                <p className="text-gray-600 text-sm ">{review.text}</p>
+                <h4 className="text-lg font-semibold mb-1">{review.header}</h4>
+                <p className="text-gray-600 text-lg ">{review.text}</p>
               </div>
             )}
             {/* Thumbnails */}
             <div
               className={`transition-all duration-500 ${
-                currentIndex === index ? 'w-64 h-72' : 'w-32 h-48 opacity-70'
+                currentIndex === index ? 'w-64 h-96' : 'w-48 h-64 opacity-70'
               }`}
             >
               <img
