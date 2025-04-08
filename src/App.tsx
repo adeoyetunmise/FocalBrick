@@ -1,4 +1,4 @@
-import { Video } from "lucide-react"
+
 import ContactInformation from "./component/ContactInformation"
 import Footer from "./component/Footer"
 import Founders from "./component/Founders"
@@ -6,6 +6,7 @@ import HeroPage from "./component/HeroPage"
 import KeyFeatures from "./component/KeyFeatures"
 import LatestProperties from "./component/LateseProperties"
 import Navbar from "./component/NavBar"
+import Video from "./component/Video"
 import PropertyCards from "./component/PropertyCards"
 import ReviewsFromClients from "./component/ReviewsFromClients"
 

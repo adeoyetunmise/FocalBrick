@@ -25,7 +25,7 @@ const Navbar: React.FC = () => {
       </div>
 
       {/* Desktop Links */}
-      <ul className="hidden md:flex space-x-3 text-sm text-white font-light font-roboto">
+      <ul className="hidden md:flex space-x-3 text-lg text-white font-light font-roboto">
         {['Home', 'Properties', 'Services', 'About Us', 'Contact'].map((link) => (
           <li
             key={link}
