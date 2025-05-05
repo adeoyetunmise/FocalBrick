@@ -1,34 +1,29 @@
+// App.tsx
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./component/NavBar";
+import Footer from "./component/Footer";
 
-import ContactInformation from "./component/ContactInformation"
-import Footer from "./component/Footer"
-import Founders from "./component/Founders"
-import HeroPage from "./component/HeroPage"
-import KeyFeatures from "./component/KeyFeatures"
-import LatestProperties from "./component/LateseProperties"
-import Navbar from "./component/NavBar"
-import Video from "./component/Video"
-import PropertyCards from "./component/PropertyCards"
-import ReviewsFromClients from "./component/ReviewsFromClients"
-
-
+// Page Components
+import Home from "./pages/Home";
+import About from "./pages/About";
+// import Services from "./pages/Services";
+// import Contact from "./pages/Contact";
+import Properties from "./pages/Properties";
 
 function App() {
-
-
   return (
-    <>  
-    <Navbar />
-    <HeroPage />
-    <LatestProperties />
-    <PropertyCards />
-    <KeyFeatures />
-    <Founders />
-    <Video />
-    <ReviewsFromClients />
-    <ContactInformation />
-    <Footer />
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        {/* <Route path="/services" element={<Services />} /> */}
+        {/* <Route path="/contact" element={<Contact />} /> */}
+        <Route path="/properties" element={<Properties />} />
+      </Routes>
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

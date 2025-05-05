@@ -7,10 +7,10 @@ const HeroPage: React.FC = () => {
       <Navbar />
       <div className="flex flex-col items-center justify-center h-full text-white bg-black bg-opacity-50">
         {/* Main Text */}
-        <h1 className="text-4xl md:text-6xl font-archivo font-extrabold mb-6 text-center">
+        <h1 className="text-4xl md:text-8xl font-archivo font-extrabold mb-6 text-center">
           Your Trusted Partner in
           <br />
-          <span className="italic font-merriweather text-5xl font-medium">Real Estate Management</span>
+          <span className="italic font-merriweather text-6xl font-medium">Real Estate Management</span>
         </h1>
 
         {/* Info Cards */}
