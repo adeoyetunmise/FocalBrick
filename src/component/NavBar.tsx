@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar: React.FC = () => {
   const location = useLocation();
@@ -37,22 +38,24 @@ const Navbar: React.FC = () => {
 
       {/* Desktop Links */}
       <ul className="hidden md:flex space-x-3 text-lg text-white font-light font-roboto">
-        {navItems.map((item) => (
-          <li key={item.name}>
-            <Link
-              to={item.path}
-              onClick={() => setIsMenuOpen(false)}
-              className={`px-3 py-1 rounded-3xl transition block ${
-                getActiveLink() === item.name
-                  ? "bg-white text-black"
-                  : "hover:text-blue-300"
-              }`}
-            >
-              {item.name}
-            </Link>
-          </li>
-        ))}
-      </ul>
+  {navItems.map((item) => (
+    <li key={item.name}>
+      <NavLink
+        to={item.path}
+        className={({ isActive }) =>
+          `px-3 py-1 rounded-3xl transition block ${
+            isActive ? "bg-white text-black font-semibold" : "hover:text-blue-300"
+          }`
+        }
+        onClick={() => setIsMenuOpen(false)}
+      >
+        {item.name}
+      </NavLink>
+    </li>
+  ))}
+</ul>
+
+
 
       {/* Desktop Button */}
       <Link to="/properties">
@@ -102,15 +105,18 @@ const Navbar: React.FC = () => {
         <ul className="flex flex-col py-8 px-6 space-y-4 font-roboto text-black">
           {navItems.map((item) => (
             <li key={item.name}>
-              <Link
-                to={item.path}
-                onClick={() => setIsMenuOpen(false)}
-                className={`text-base block ${
-                  getActiveLink() === item.name ? "text-blue-600 font-semibold" : ""
-                }`}
-              >
-                {item.name}
-              </Link>
+              <NavLink
+  to={item.path}
+  onClick={() => setIsMenuOpen(false)}
+  className={({ isActive }) =>
+    `text-base block ${
+      isActive ? "text-blue-600 font-semibold" : "text-black"
+    }`
+  }
+>
+  {item.name}
+</NavLink>
+
             </li>
           ))}
           <li>

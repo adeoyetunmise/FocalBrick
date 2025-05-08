@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const KeyFeatures: React.FC = () => {
   return (
@@ -7,7 +7,10 @@ const KeyFeatures: React.FC = () => {
         {/* Header */}
         <div className="w-full text-left mb-8 sm:mb-10 md:mb-12">
           <h2 className="text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold text-gray-800 leading-tight">
-            Our Key <span className="italic font-merriweather font-light">Features</span>
+            Our Key{" "}
+            <span className="italic font-merriweather font-light">
+              Features
+            </span>
           </h2>
         </div>
 
@@ -16,27 +19,31 @@ const KeyFeatures: React.FC = () => {
           {/* First Column */}
           <div className="text-left space-y-6 sm:space-y-8">
             <div className="p-6 ">
-              <h4 className="text-lg sm:text-xl font-semibold mb-2">Property Management</h4>
+              <h4 className="text-lg sm:text-xl font-semibold mb-2">
+                Property Management
+              </h4>
               <p className="text-gray-600 text-sm sm:text-lg font-roboto">
-                We take the complexity out of property ownership. From tenant screening to maintenance, 
-                our comprehensive management services ensure your investment remains profitable and stress-free.
+                We professionally manage all types of properties to maximize
+                returns and ensure stress-free ownership.
               </p>
             </div>
-            
+
             <div className="p-6 ">
-              <h4 className="text-lg sm:text-xl font-semibold mb-2">Real Estate Consulting</h4>
+              <h4 className="text-lg sm:text-xl font-semibold mb-2">
+                Real Estate Development
+              </h4>
               <p className="text-gray-600 text-sm sm:text-lg font-roboto">
-                Navigate the dynamic real estate landscape with confidence. Our expert consultants provide 
-                data-driven insights, market analysis, and strategic advice tailored to your unique goals.
+                We execute real estate projects from start to finish, building
+                durable and value-driven properties.
               </p>
             </div>
           </div>
 
           {/* Center Image - Visible on all screens but repositioned */}
           <div className="flex justify-center items-center row-start-1 sm:row-start-auto sm:col-span-2 lg:col-span-1">
-            <img 
-              src="/Frame 36.png" 
-              alt="Key Features" 
+            <img
+              src="/Frame 36.png"
+              alt="Key Features"
               className="w-full max-w-xs sm:max-w-sm lg:max-w-md h-auto object-contain my-4"
             />
           </div>
@@ -44,18 +51,21 @@ const KeyFeatures: React.FC = () => {
           {/* Third Column */}
           <div className="text-left space-y-6 sm:space-y-8">
             <div className="p-6">
-              <h4 className="text-lg sm:text-xl font-semibold mb-2">Investment Solutions</h4>
+              <h4 className="text-lg sm:text-xl font-semibold mb-2">
+                Property Advisory
+              </h4>
               <p className="text-gray-600 text-sm sm:text-lg font-roboto">
-                Maximize your real estate potential. We identify high-yield properties, manage investment portfolios, 
-                and provide end-to-end support for both seasoned investors and first-time property owners.
+                Our expert insights help clients navigate property investment
+                and decision-making with confidence.
               </p>
             </div>
-            
+
             <div className=" p-6">
-              <h4 className="text-lg sm:text-xl font-semibold mb-2">Specialized Services</h4>
+              <h4 className="text-lg sm:text-xl font-semibold mb-2">
+                Equipment Leasing
+              </h4>
               <p className="text-gray-600 text-sm sm:text-lg font-roboto">
-                Maximize your real estate potential. We identify high-yield properties, manage investment portfolios, 
-                and provide end-to-end support for both seasoned investors and first-time property owners.
+              We lease quality construction and real estate-related equipment to support efficient project delivery.
               </p>
             </div>
           </div>

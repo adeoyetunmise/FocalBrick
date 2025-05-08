@@ -9,6 +9,7 @@ import About from "./pages/About";
 // import Services from "./pages/Services";
 // import Contact from "./pages/Contact";
 import Properties from "./pages/Properties";
+import ProductDetail from "./pages/productDetail";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         {/* <Route path="/services" element={<Services />} /> */}
         {/* <Route path="/contact" element={<Contact />} /> */}
         <Route path="/properties" element={<Properties />} />
+        <Route path="/properties/:slug" element={<ProductDetail />} />
       </Routes>
       <Footer />
     </>

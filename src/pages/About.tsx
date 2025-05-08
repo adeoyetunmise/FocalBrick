@@ -8,26 +8,22 @@ const About: React.FC = () => {
   return (
     <>
       <div
-        className="relative h-[135vh] bg-cover bg-center"
+        className="relative h-[120vh] bg-cover bg-center"
         style={{ backgroundImage: "url('/frontyard.jpg')" }}
       >
         <div className="flex flex-col justify-center h-full text-white bg-black bg-opacity-50">
           {/* Main Text */}
-          <h1 className="text-4xl md:text-7xl font-archivo mt-48 p-24 font-extrabold">
-            Transforming
+          <h1 className="text-4xl md:text-7xl font-archivo mt-30 p-24 font-extrabold">
+            Building
             <span className="italic font-merriweather text-7xl font-medium">
               {" "}
-              Real Estate
+              Trust,
             </span>
             <br />
             <span className="text-4xl md:text-7xl font-archivo font-extrabold mb-6">
-              Management Through <br />
+              Managing Growth, <br />
               <span className="italic font-merriweather text-7xl font-medium">
-                Expertise, Innovation, and
-              </span>
-              <br />
-              <span className="italic font-merriweather text-7xl font-medium">
-                Trust
+                Shaping Communities.
               </span>
             </span>
           </h1>
@@ -52,28 +48,13 @@ const About: React.FC = () => {
         </div>
 
         {/* Right Side */}
-        <div className="md:w-1/2 space-y-6 text-gray-700 text-base font-roboto">
+        <div className="md:w-1/2 space-y-6 text-gray-700 mt-40 text-lg font-roboto">
           <p>
-            Founded in 2012, <b> FocalBrick Limited </b> has established itself
-            as a premier name in comprehensive real estate and property
-            management services. What began as a vision to transform traditional
-            property management has evolved into a full-service real estate
-            solution trusted by hundreds of property owners, investors, and
-            tenants across the region.
-          </p>
-          <p>
-            The FocalBrick story began when co-founders Sarah Thompson and
-            Michael Rodriguez, both seasoned real estate professionals,
-            recognized a critical gap in the market. They envisioned a property
-            management company that would combine innovative technology with
-            personalized service—where clients would receive both cutting-edge
-            efficiency and the human touch that real estate inherently demands.
-          </p>
-          <p>
-            Starting with a small portfolio of just 15 properties, we've grown
-            to manage over 500 residential and commercial properties valued at
-            more than $750 million. This growth reflects our unwavering
-            commitment to excellence and the trust our clients place in us.
+            FOCALBRICK Limited is a full-service real estate management company
+            committed to delivering excellence in property development, property
+            management, advisory services, and equipment leasing. With a passion
+            for real estate and a focus on long-term value, we serve
+            individuals, businesses, and institutional clients across Nigeria.
           </p>
         </div>
       </section>
@@ -83,14 +64,11 @@ const About: React.FC = () => {
         <div className="flex-1">
           <h3 className="text-3xl md:text-4xl font-bold font-archivo text-gray-800">
             Our{" "}
-            <span className="italic font-merriweather font-light">Values</span>
+            <span className="italic font-merriweather font-light">Mission</span>
           </h3>
           <p className="text-gray-700 text-base font-roboto">
-            Discover a new era of property management with FocalBrick Limited.
-            We don't just manage properties; we create thriving living and
-            investment ecosystems. With over a decade of expertise, we turn real
-            estate challenges into opportunities for growth, comfort, and
-            financial success.
+            To provide world-class real estate and property solutions that
+            deliver sustainable value to our clients and communities.
           </p>
         </div>
 
@@ -100,11 +78,9 @@ const About: React.FC = () => {
             <span className="italic font-merriweather font-light">Vision</span>
           </h3>
           <p className="text-gray-700 text-base font-roboto">
-            We aim to redefine the standards of property management by creating
-            thriving real estate ecosystems where owners, investors, tenants,
-            and communities all benefit. By combining human expertise with
-            technological innovation, we're building a future where property
-            management is synonymous with property enhancement.
+            To be a leading force in property development and
+            management—recognized for integrity, innovation, and service
+            excellence
           </p>
         </div>
 
@@ -116,10 +92,8 @@ const About: React.FC = () => {
             </span>
           </h3>
           <p className="text-gray-700 text-base font-roboto">
-            At FocalBrick, we believe property management isn't just about
-            maintaining buildings—it's about building relationships and
-            maximizing value. Our approach combines: Data Driven Decision
-            Making, Proactive Management, Transparent Communication
+            We adopt modern tools and solutions for efficient and
+            forward-thinking operations
           </p>
         </div>
       </section>
