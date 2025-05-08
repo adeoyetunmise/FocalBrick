@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link, } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 
 const Navbar: React.FC = () => {
-  const location = useLocation();
+  // const location = useLocation();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
@@ -21,10 +21,10 @@ const Navbar: React.FC = () => {
     { name: "Contact", path: "/contact" },
   ];
 
-  const getActiveLink = () => {
-    const current = navItems.find((item) => item.path === location.pathname);
-    return current?.name || "Home";
-  };
+  // const getActiveLink = () => {
+  //   const current = navItems.find((item) => item.path === location.pathname);
+  //   return current?.name || "Home";
+  // };
 
   return (
     <nav className="absolute top-0 w-full z-50 bg-transparent px-4 sm:px-6 md:px-10 lg:px-24 py-12 flex justify-between items-center -mt-6">
