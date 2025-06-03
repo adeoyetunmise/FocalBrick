@@ -5,13 +5,25 @@ export interface Product {
   image: string;
   description1: string;
   description2: string;
+  detailedDescription?: string;
   price: string;
   bedrooms?: number;
   bathrooms?: number;
   area?: string;
   light?: string;
   parking?: boolean;
+  type?: string;
+  offer?: string;
+  status?: string;
+  inspection?: string;
+  image1?: string;
+  image2?: string;
+  image3?: string;
+  image4?: string;
+  agentName?: string;
+  agentImage?: string;
 }
+
 const products: Product[] = [
   {
     id: 1,
@@ -20,12 +32,23 @@ const products: Product[] = [
     image: "/frame-17.png",
     description1: "Coastal Estates, Marina District",
     description2: "3 Bedrooms | 2,500 sq ft | Panoramic Ocean views",
+    detailedDescription: "This luxurious apartment offers stunning ocean views, modern amenities, and open-concept living designed for comfort and elegance.",
     price: "Price: $1,250,000",
     bedrooms: 4,
     bathrooms: 3,
     area: "2500 sq ft",
     light: "247 Natural Light",
     parking: true,
+    type: "Apartment",
+    offer: "Sale",
+    status: "Still Available",
+    inspection: "Every Thursday",
+    image1: "/des1.jpg",
+    image2: "/des2.jpg",
+    image3: "/des3.jpg",
+    image4: "/des4.jpg",
+    agentName: "Noah White",
+    agentImage: "/agent_image.jpg",
   },
   {
     id: 2,
@@ -40,6 +63,16 @@ const products: Product[] = [
     area: "2000 sq ft",
     light: "247 Natural Light",
     parking: true,
+    type: "Loft",
+    offer: "Rent",
+    status: "Still Available",
+    inspection: "Every Friday",
+    image1: "/icons/property-type.png",
+    image2: "/icons/offer-type.png",
+    image3: "/icons/status.png",
+    image4: "/icons/inspection.png",
+    agentName: "Noah White",
+    agentImage: "/agents/noah-white.jpg",
   },
   {
     id: 3,
@@ -54,6 +87,16 @@ const products: Product[] = [
     area: "1500 sq ft",
     light: "247 Natural Light",
     parking: false,
+    type: "House",
+    offer: "Sale",
+    status: "Still Available",
+    inspection: "Every Saturday",
+    image1: "/icons/property-type.png",
+    image2: "/icons/offer-type.png",
+    image3: "/icons/status.png",
+    image4: "/icons/inspection.png",
+    agentName: "Noah White",
+    agentImage: "/agents/noah-white.jpg",
   },
   {
     id: 4,
@@ -68,6 +111,16 @@ const products: Product[] = [
     area: "2000 sq ft",
     light: "247 Natural Light",
     parking: true,
+    type: "Estate",
+    offer: "Sale",
+    status: "Available",
+    inspection: "Sundays 1–4 PM",
+    image1: "/icons/property-type.png",
+    image2: "/icons/offer-type.png",
+    image3: "/icons/status.png",
+    image4: "/icons/inspection.png",
+    agentName: "Noah White",
+    agentImage: "/agents/noah-white.jpg",
   },
   {
     id: 5,
@@ -82,6 +135,16 @@ const products: Product[] = [
     area: "2500 sq ft",
     light: "247 Natural Light",
     parking: true,
+    type: "Villa",
+    offer: "Sale",
+    status: "Still Available",
+    inspection: "Weekends Only",
+    image1: "/icons/property-type.png",
+    image2: "/icons/offer-type.png",
+    image3: "/icons/status.png",
+    image4: "/icons/inspection.png",
+    agentName: "Noah White",
+    agentImage: "/agents/noah-white.jpg",
   },
   {
     id: 6,
@@ -96,6 +159,16 @@ const products: Product[] = [
     area: "1500 sq ft",
     light: "247 Natural Light",
     parking: true,
+    type: "Penthouse",
+    offer: "Rent",
+    status: "Available",
+    inspection: "By Appointment",
+    image1: "/icons/property-type.png",
+    image2: "/icons/offer-type.png",
+    image3: "/icons/status.png",
+    image4: "/icons/inspection.png",
+    agentName: "Noah White",
+    agentImage: "/agents/noah-white.jpg",
   },
   {
     id: 7,
@@ -110,6 +183,16 @@ const products: Product[] = [
     area: "3000 sq ft",
     light: "247 Natural Light",
     parking: true,
+    type: "Residence",
+    offer: "Sale",
+    status: "Still Available",
+    inspection: "Every Sunday",
+    image1: "/icons/property-type.png",
+    image2: "/icons/offer-type.png",
+    image3: "/icons/status.png",
+    image4: "/icons/inspection.png",
+    agentName: "Noah White",
+    agentImage: "/agents/noah-white.jpg",
   },
   {
     id: 8,
@@ -124,6 +207,16 @@ const products: Product[] = [
     area: "3500 sq ft",
     light: "247 Natural Light",
     parking: true,
+    type: "Loft",
+    offer: "Sale",
+    status: "Still Available",
+    inspection: "Wednesdays & Saturdays",
+    image1: "/icons/property-type.png",
+    image2: "/icons/offer-type.png",
+    image3: "/icons/status.png",
+    image4: "/icons/inspection.png",
+    agentName: "Noah White",
+    agentImage: "/agents/noah-white.jpg",
   },
   {
     id: 9,
@@ -138,6 +231,16 @@ const products: Product[] = [
     area: "1500 sq ft",
     light: "247 Natural Light",
     parking: true,
+    type: "House",
+    offer: "Sale",
+    status: "Available",
+    inspection: "Every Monday",
+    image1: "/icons/property-type.png",
+    image2: "/icons/offer-type.png",
+    image3: "/icons/status.png",
+    image4: "/icons/inspection.png",
+    agentName: "Noah White",
+    agentImage: "/agents/noah-white.jpg",
   },
   {
     id: 10,
@@ -152,6 +255,16 @@ const products: Product[] = [
     area: "2500 sq ft",
     light: "247 Natural Light",
     parking: false,
+    type: "Office",
+    offer: "Sale",
+    status: "Under Offer",
+    inspection: "By Appointment Only",
+    image1: "/icons/property-type.png",
+    image2: "/icons/offer-type.png",
+    image3: "/icons/status.png",
+    image4: "/icons/inspection.png",
+    agentName: "Noah White",
+    agentImage: "/agents/noah-white.jpg",
   },
   {
     id: 11,
@@ -166,6 +279,16 @@ const products: Product[] = [
     area: "2500 sq ft",
     light: "247 Natural Light",
     parking: false,
+    type: "Apartment",
+    offer: "Rent",
+    status: "Still Available",
+    inspection: "Wednesdays & Sundays",
+    image1: "/icons/property-type.png",
+    image2: "/icons/offer-type.png",
+    image3: "/icons/status.png",
+    image4: "/icons/inspection.png",
+    agentName: "Noah White",
+    agentImage: "/agents/noah-white.jpg",
   },
   {
     id: 12,
@@ -180,6 +303,16 @@ const products: Product[] = [
     area: "2500 sq ft",
     light: "247 Natural Light",
     parking: true,
+    type: "House",
+    offer: "Sale",
+    status: "Available",
+    inspection: "Every Tuesday",
+    image1: "/icons/property-type.png",
+    image2: "/icons/offer-type.png",
+    image3: "/icons/status.png",
+    image4: "/icons/inspection.png",
+    agentName: "Noah White",
+    agentImage: "/agents/noah-white.jpg",
   },
 ];
 

@@ -6,7 +6,7 @@ const KeyFeatures: React.FC = () => {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="w-full text-left mb-8 sm:mb-10 md:mb-12">
-          <h2 className="text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold text-gray-800 leading-tight">
+          <h2 className="text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold text-[#292E4B] leading-tight">
             Our Key{" "}
             <span className="italic font-merriweather font-light">
               Features
@@ -19,7 +19,7 @@ const KeyFeatures: React.FC = () => {
           {/* First Column */}
           <div className="text-left space-y-6 sm:space-y-8">
             <div className="p-6 ">
-              <h4 className="text-lg sm:text-xl font-semibold mb-2">
+              <h4 className="text-lg text-[#292E4B] sm:text-xl font-semibold mb-2">
                 Property Management
               </h4>
               <p className="text-gray-600 text-sm sm:text-lg font-roboto">
@@ -29,7 +29,7 @@ const KeyFeatures: React.FC = () => {
             </div>
 
             <div className="p-6 ">
-              <h4 className="text-lg sm:text-xl font-semibold mb-2">
+              <h4 className="text-lg text-[#292E4B] sm:text-xl font-semibold mb-2">
                 Real Estate Development
               </h4>
               <p className="text-gray-600 text-sm sm:text-lg font-roboto">
@@ -51,7 +51,7 @@ const KeyFeatures: React.FC = () => {
           {/* Third Column */}
           <div className="text-left space-y-6 sm:space-y-8">
             <div className="p-6">
-              <h4 className="text-lg sm:text-xl font-semibold mb-2">
+              <h4 className="text-lg text-[#292E4B] sm:text-xl font-semibold mb-2">
                 Property Advisory
               </h4>
               <p className="text-gray-600 text-sm sm:text-lg font-roboto">
@@ -61,7 +61,7 @@ const KeyFeatures: React.FC = () => {
             </div>
 
             <div className=" p-6">
-              <h4 className="text-lg sm:text-xl font-semibold mb-2">
+              <h4 className="text-lg text-[#292E4B] sm:text-xl font-semibold mb-2">
                 Equipment Leasing
               </h4>
               <p className="text-gray-600 text-sm sm:text-lg font-roboto">

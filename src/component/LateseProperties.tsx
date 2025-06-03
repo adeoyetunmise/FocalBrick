@@ -6,7 +6,7 @@ const LatestProperties: React.FC = () => {
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-start gap-8 md:gap-12 lg:gap-16">
         {/* Big Text */}
         <div className="w-full md:w-1/2 mb-6 md:mb-0">
-          <h2 className="text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold text-gray-800 leading-tight">
+          <h2 className="text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold text-[#292E4B] leading-tight">
             Explore our latest
             <span className="block italic font-merriweather font-light mt-1">properties</span>
           </h2>
@@ -21,7 +21,7 @@ const LatestProperties: React.FC = () => {
             expertise, we turn real estate challenges into opportunities for
             growth, comfort, and financial success.
           </p>
-          <button className="bg-black text-white text-sm sm:text-base px-5 sm:px-6 py-2 sm:py-2.5 rounded-full hover:bg-gray-800 transition-colors">
+          <button className="bg-[#292E4B] text-white text-sm sm:text-base px-5 sm:px-6 py-2 sm:py-2.5 rounded-full hover:bg-gray-800 transition-colors">
             View All Properties
           </button>
         </div>

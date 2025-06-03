@@ -43,7 +43,7 @@ const PropertyCards: React.FC = () => {
               {property.description2}
             </p>
             <p className="text-sm font-semibold mb-4">Price:{property.price}</p>
-            <button className="bg-black text-sm text-white px-4 py-2 rounded-full hover:bg-gray-800">
+            <button className="bg-[#292E4B] text-sm text-white px-4 py-2 rounded-full hover:bg-gray-800">
               View Property
             </button>
           </div>
